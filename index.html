@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+
+		<script>
+			// let a = -8;
+			// let b = -6;
+
+			// if (a >= 0 && b >= 0) {
+			// 	alert(a - b);
+			// }else if(a <= 0 && b <= 0){
+			// 	alert(a * b);
+			// }else{
+			// 	alert(a + b);
+			// }
+
+									/*Присвоить переменной а значение в промежутке [0..15]. С помощью оператора switch организовать вывод чисел от a до 15*/
+// a = +prompt ('Введіть число від 1 до 15');
+// switch (a) {
+// case 1:
+// 	alert ( 'Ваше число 1');
+	
+// case 2:
+// 	alert ( 'Ваше число 2');
+	
+// case 3:
+// 	alert ( 'Ваше число 3');
+
+// case 4:
+// 	alert ( 'Ваше число 4');
+
+// case 5:
+// 	alert ( 'Ваше число 5');
+
+// case 6:
+// 	alert ( 'Ваше число 6');
+
+// case 7:
+// 	alert ( 'Ваше число 7');
+
+// case 8:
+// 	alert ( 'Ваше число 8');
+
+// case 9:
+// 	alert ( 'Ваше число 9');
+
+// case 10:
+// 	alert ( 'Ваше число 10');
+
+// case 11:
+// 	alert ( 'Ваше число 11');
+
+// case 12:
+// 	alert ( 'Ваше число 12');
+
+// case 13:
+// 	alert ( 'Ваше число 13');
+
+// case 14:
+// 	alert ( 'Ваше число 14');
+
+// case 15:
+// 	alert ( 'Ваше число 15');
+// 	break;	
+// }	
+
+								 		/*Реализовать основные 4 арифметические операции в виде функций с двумя параметрами. Обязательно использовать оператор return.*/
+
+// var a;
+// var b;
+
+// function plus(a, b) {
+//   		return a + b;
+// }
+
+// function minus(a, b) {
+//   		return a - b;
+// }
+
+// function div (a, b) {
+//   		return a / b;
+// }
+
+// function mult (a, b) {
+//   		return a * b;
+// }
+
+// alert(minus(8, 5));
+
+		//  Реализовать функцию с тремя параметрами: function mathOperation(arg1, arg2, operation), где
+		// arg1, arg2 – значения аргументов, operation – строка с названием операции. В зависимости от
+		// переданного значения операции выполнить одну из арифметических операций (использовать
+		// функции из пункта 3) и вернуть полученное значение (использовать switch).
+
+// function mathOperation(arg1, arg2, operation) {
+// 	switch (operation){
+// 		case "множення":
+// 			alert(arg1*arg2);
+// 			break;
+
+// 		case "ділення":
+// 			alert(arg1/arg2);
+// 			break;
+
+// 		case "сума":
+// 			alert(arg1+arg2);
+// 			break;
+
+// 		case "різниця":
+// 		alert(arg1-arg2);
+// 		break;
+// 	}
+// }
+// alert(mathOperation(4, 5, 'ділення'));
+	
+// 	alert(null > 0);
+
+
+// function power(val, pow) {
+// 	if (pow == 1) {
+// 		return val;
+// 	}else{
+// 		return val * power(val, pow - 1);
+// 	}
+// }
+
+// alert(power(2,3));
+
+
+
+// let number;
+// let result = false;
+
+// //функція для виводу випадкового числа у заданому інтервалі
+// function getRandomIntInclusive(min, max) {
+//   min = Math.ceil(min);
+//   max = Math.floor(max);
+//   return Math.floor(Math.random() * (max - min + 1)) + min; //включно з максимальним
+// }
+// //присвоюємо змінній значення випадкового числа
+// number = getRandomIntInclusive(1000, 9999);
+// console.log(number);
+
+// alert("Вітаємо у грі --Вгадай число-- !");
+
+// while (!result) {
+//   const answer = prompt('Вгадай число от 1 до 10?');
+//   if (answer === null) {
+//     break;
+//   }
+//   switch (+answer) {
+//     case number - 2:
+//     case number + 2:
+//       alert('Уже тепліше!');
+//       break;
+//     case number - 1:
+//     case number + 1:
+//       alert('Гаряче!');
+//       break;
+//     case number:
+//       alert('Ви вгадали! Це число ' + number);
+//       result = true;
+//       break;
+//     default:
+//       alert('Холодно!');
+//   }
+// }
+
+// let arr = new Array(100);
+
+// console.log(5);
+// while(i <= arr){
+
+// 	console.log(i++);
+// }
+
+// let n = 9;
+// let i = -1;
+
+// do{
+//  	console.log(i++);
+//  	if(i == 0){
+//  		document.write(i + " - це нуль" + "<br/> <br/>");
+//  	}else if(i % 2 == 0){
+// 		document.write(i + " - це парне число" + "<br/> <br/>");
+// 	}else if(i % 2 != 0){
+// 		document.write(i + " - це непарне число" + "<br/> <br/>");
+// 	}
+
+// }while(i <= n)
+
+let arr = [];
+let end = 0;
+while (end < 20){
+    end++;
+    arr.push('x');
+    console.log(arr);
+}
+	</script>
+</head>
+<body>
+
+</body>
+</html>
